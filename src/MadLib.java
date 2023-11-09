@@ -11,7 +11,7 @@ public class MadLib {
         String adjective="hungry";
         String pluralNoun="computers";
         String pluralAnimal="ostriches";
-        String trueOrFalse="true";
+        boolean trueOrFalse=true;
         Double decimalBiggerThan1=6.78;
         int number1=7;
         int number2=100;
@@ -20,6 +20,7 @@ public class MadLib {
         String miltonDean="Ms. Sugrue";
         String letterGrade="F";
         String season="summer";
+        String pluralNoun2="coyotes";
         String story = "This weekend I am going camping with "
                 +classmate+ ". We are going to a campsite in "
                 +city+ ". I packed my "+noun+ " and "
@@ -31,7 +32,7 @@ public class MadLib {
                 +wholeNumberBetween1And4+ " students in the " +season+ ". But, "
                 +miltonDean+ " said it actually has only happened "
                 + number2+" times. Wish us luck! If we survive, we will earn a "
-                +letterGrade+ "- in P.E. class.";
+                +letterGrade+ "- in P.E. class. However, I think that the "+pluralNoun2+" might get us... ";
         System.out.println(story);
 
 
